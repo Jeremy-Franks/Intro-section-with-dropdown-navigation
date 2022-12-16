@@ -69,3 +69,45 @@ button:hover{
   border-radius: 10px;
   margin-left: 15px;
 }
+
+
+/* Main content */
+
+.flex{
+  display: flex;
+  /* grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 200px); */
+  border: solid 1px slateblue;
+  width: 80%;
+  height: 90vh;
+  margin-inline: auto;
+}
+
+.main-content{
+  padding-top: 50px;
+}
+
+h1{
+  font-size: 100px;
+  margin-bottom: 30px;
+}
+
+.main-p{
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.main-btn{
+  border-radius: 10px;
+  background-color: black;
+  color: #fff;
+  opacity: 100%;
+}
+
+.main-img{
+  /* grid-column: 2/3;
+  grid-row: 1/4; */
+  width: 600px;
+  object-fit: contain;
+}
